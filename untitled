@@ -1,0 +1,103 @@
+<p>Vestibulum a bibendum enim. Sed metus sem, consectetur id auctor sed, fringilla sit amet est. Proin elementum feugiat tempus. Etiam consectetur, lacus ullamcorper tincidunt tincidunt, leo arcu tincidunt nibh, ut facilisis quam nulla in tellus. Donec adipiscing bibendum quam, quis.</p>
+
+                <p>Cras a justo at libero aliquam imperdiet. Nulla in lectus a ligula tempus ullamcorper. Pellentesque auctor mauris euismod leo eleifend sollicitudin. Ut eget ligula urna. Sed pulvinar arcu ut arcu convallis aliquet. In mollis ornare justo, quis convallis enim porttitor ac. Donec vitae ante velit. Aliquam vitae mauris erat, vitae rutrum massa. Sed nec ultricies diam. Pellentesque fringilla hendrerit ligula quis adipiscing. Sed id purus ante, vel imperdiet lectus. Vivamus vel elit purus. Aenean ligula felis, mattis sagittis fermentum nec, faucibus eget mauris. Mauris placerat sapien non lectus aliquam auctor. Praesent lacus orci, adipiscing feugiat scelerisque imperdiet, viverra ut arcu. Maecenas id enim sem, in mollis augue. Sed bibendum, ipsum in consequat sodales, mauris nisl volutpat leo, eu eleifend nisi.</p>
+
+                <p>Lorem Ipsum <a href=
+                "http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript">
+                has written a great article</a> on organizing your code in a
+                large Angular app.</p>
+
+                <h2>Directives are awesome and powerful</h2>
+
+                <p>Cras sed quam orci, in porta lectus. Cras sed ante at velit tristique tempor. In in elit lectus. Nam id metus sed odio fringilla imperdiet non at ipsum. Integer quam velit, vestibulum eu faucibus eget, auctor sed libero. Donec massa purus, dictum a mattis et, dapibus a lorem. Aliquam viverra varius magna.</p>
+
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis ipsum mi, dapibus vel feugiat vel, mattis at erat. Duis hendrerit faucibus lectus ac facilisis. Proin ut ipsum cursus lorem posuere ultricies at ut ipsum. Donec consectetur sodales leo a pretium. Donec pellentesque, sapien eu vehicula viverra.</p>
+
+                <p>Curabitur lorem nibh, dictum fermentum viverra et, rutrum et libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam neque odio, sodales at faucibus at, interdum ut neque. Ut suscipit malesuada felis id convallis. Sed non est lacinia diam suscipit volutpat. Nullam massa tortor, interdum vitae lacinia cursus, ultricies ac risus. Nam pellentesque adipiscing velit, vitae sodales est mattis a. Ut cursus mattis mauris sit amet dapibus. Duis vitae neque leo, sagittis condimentum elit. Aenean interdum, elit et dictum condimentum, augue eros mollis quam, eget ornare orci purus et.</p>
+
+                <p>If you haven’t watched them yet, bounce on over to John
+                Lindquist’s <a href="http://egghead.io">egghead.io</a> and
+                check out the series on Directives. All of the videos are
+                excellent, but the Directives information is enlightening.</p>
+
+                <h2>Know thy framework</h2>
+
+                <p>Since I’ve started this project, I’ve definitely spent some
+                time with the <a href=
+                "https://github.com/angular/angular.js/tree/master/src">Angular
+                internals</a>. The source code is highly readable and well
+                tested, so it is a <strong>great read</strong> if you are into
+                clean/tight JavaScript.</p>
+
+                <p>While I’ve spent some time with it, this is an area I’d like
+                to get more intimate with. Many things are still <strong>black
+                box</strong> to me, and while I trust the folks building
+                Angular, I still feel the need to understand what is occuring
+                when I build applications. This is one of my immediate goals
+                right now, so hopefully down the road I might have a thing or
+                two to say about how Angular works uner the hood.</p>
+
+                <p>As an aside, I feel compelled to do the same thing with
+                <a href=
+                "https://github.com/jquery/jquery/tree/master/src">jQuery</a>.
+                So much source, so little time.</p>
+
+                <h2>The Build</h2>
+
+                <p>Sadly, with this project we are required to use Maven and
+                JAWR for our build. It has been a real struggle and we can’t do
+                “proper” builds. We’ve been able to build some tools that help
+                to mitigate, but I don’t recommend using Maven for your front
+                end code.</p>
+
+                <p>If I was starting the project today, I would definitely use
+                <a href=
+                "https://github.com/yeoman/generator-angular">Yeoman</a> to
+                easily generate templates and make life easier.</p>
+
+                <h2>The CSS</h2>
+
+                <p>This isn’t related to Angular directly, but is another
+                important aspect of your <em>AngularJS project</em> so I wanted
+                to spend a little time on it.</p>
+
+                <p>I will admit that a year ago my attitude was “f css”. It
+                confused and frustrated me to the point of distaste. Obviously
+                this stemmed from ignorance, and I’ve spent the last year
+                trying to play makeup with CSS. My attitude is no longer “f
+                css” and sounds more like “SCSS!” because I found a happy place
+                where CSS and I can get along.</p>
+
+                <p><a href="http://sass-lang.com/">SCSS</a> syntax takes many
+                of the pain points that put the screws to my brain with vanilla
+                CSS and added a nice level of clarity. On top of that, Compass
+                provides a pile of wicked mixins that eliminate an entirely new
+                level of pain from the stylesheet workflow.</p>
+
+                <p>In the future I want to dig into SASS/Compass deeper,
+                combining its expressive styling capabilities with the module
+                and component level AngularJS work outlined above. I’d like to
+                use a more organized approach to my stylesheets with something
+                like <a href="http://smacss.com/">SMACSS</a> providing a
+                baseline standard for how the styling is implemented and
+                organized.</p>
+
+                <p>At this point, CSS and I have fully made up. I’ve removed a
+                lot of my ignorance, which was obviously the key to building a
+                solid relationship. We will see how it goes. One day at a
+                time.</p>
+
+                <h2>Conclusion</h2>
+
+                <p>If you are building a single-page web application, AngularJS
+                is a solid choice. It is important to decide on and implement
+                structure for your application early. Consider up front how to
+                organize your code into modules and components so that you can
+                harness the power of Directives and maximize reusability
+                potential.</p>
+
+                <p>Some good comments on <a href=
+                "https://news.ycombinator.com/item?id=5756911">Hacker News</a>
+                if you’d like to join the discussion.</p>
+            </div>
+        </article>
